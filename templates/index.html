@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar sonidos de los animales</title>
+</head>
+<body>
+    <h1>Consulta sonido de los animales</h1>
+    <form action="/sonido-animal" method="get">
+        <label for="animal">Animal:</label>
+        <select id="animal" name="animal">
+            <option value="Perro">Perro</option>
+            <option value="Gato">Gato</option>
+            <option value="Hurón">Hurón</option>
+            <option value="Boa constrictor">Boa constrictor</option>
+        </select>
+        <button type="submit">CONSULTAR</button>
+    </form>
+    <br>
+    <div id="resultado">
+        <!-- Aquí se mostrará el resultado de la consulta -->
+    </div>
+</body>
+</html>
